@@ -1,0 +1,260 @@
+body{
+    
+    background-color: #f7b42c;
+background-image: linear-gradient(to bottom left, #f87076, #f5646b ) ;
+    
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0%;
+    
+}
+
+.cards{
+    display: flex;
+}
+
+
+/*Section ONE*/
+
+.s-top{
+    display: flex;
+    margin: 2%;
+}
+
+.s-top .d-text{
+    width: 55%;
+    margin: 1%;
+    padding: 1%;
+    font-size: 24px;
+
+}
+
+.s-top .title{
+    font-size: 96px;
+    padding-left: 10px;
+    height: 30%;
+    color: #171717;
+}
+
+.s-top .detail{
+    height: 20%;
+    font-size: 32px;
+    
+}
+
+.s-top .link-btn {
+    text-decoration: none;
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    word-spacing: 2px;
+    box-shadow: 10px 10px 60px rgba(0, 0, 0, 0.445);
+
+    background-image: linear-gradient(to right, orange, tomato);
+    border-style: hidden;
+    border-radius: 20px;
+
+    padding: 20px 50px;
+}
+
+.s-top .d-text span{
+    color: #EDEDED;
+}  
+
+
+
+.s-top .d-image{
+    width: 45%;
+    margin: 1%;
+}
+
+.s-top .d-image img{
+    width: 100%;
+}
+
+
+/*Section TWO*/
+
+.s-about {
+    display: flex;
+    margin: 3%;
+    background-image: url(../images/abt-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.s-about .d-image{
+    width: 50%;
+    margin: 1%;
+    padding: 100px;
+}
+
+.s-about .d-image img{
+    width: 100%;
+    box-shadow: 1px 1px 20px #161616;
+}
+
+.s-about .d-text{
+    width: 60%;
+    margin: 1%;
+    padding: 1%;
+    font-size: 24px;
+}
+
+
+.s-about .detail{
+    color: #171717;
+    font-size: 28px;
+    text-align: justify;
+
+    height: 60%;
+    padding: 20px 50px 50px 50px;
+    margin-bottom: 3%;
+
+    background: #EDEDED;
+    border-style: hidden;
+    border-radius: 10px;
+}
+
+.s-about .detail span{
+    font-weight: 800;
+    font-size: 42px;
+}
+
+.s-about .link-div{
+    padding: 5% 30%;
+}
+
+.s-about .link-btn {
+    text-decoration: none;
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    word-spacing: 2px;
+    box-shadow: 10px 10px 60px rgba(0, 0, 0, 0.445);
+
+    background-image: linear-gradient(to right, orange, tomato);
+    border-style: hidden;
+    border-radius: 20px;
+
+    padding: 20px 50px;
+}
+
+
+/*Section THREE*/
+.s-dish{
+    margin: 3%;
+}
+
+.s-dish .d-text {
+    text-align: center;
+    text-shadow: 1px 1px 20px #171717;
+    font-weight: 700;
+    color: #EDEDED;
+}
+
+.s-dish span{
+    font-size: 46px;
+}
+
+
+.s-dish .card{
+    color: #171717;
+    width: 30%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 25px;
+
+    text-align: justify;
+    font-size: 20px;
+
+    background: white;
+    border-style: hidden;
+    border-radius: 35px;
+    box-shadow: 10px 10px 60px rgba(0, 0, 0, 0.445);
+
+}
+
+.card img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+
+/*Section FOUR*/
+
+.s-reviews {
+    margin: 2%;
+}
+
+.s-reviews .d-text {
+    text-align: center;
+    font-weight: 700;
+    color: #EDEDED;
+    font-size: 46px;
+}
+
+.s-reviews .card{
+    display: flex;
+    width: 20%;
+    margin: 0% 3% 0% 3%;
+    padding: 10px;
+    background: #17171723;
+    border: hidden;
+    border-radius: 10px;
+}
+
+.s-reviews img{
+    width: 120px;
+    height: 120px;
+}
+
+/*Section FIVE*/
+
+.s-chef{
+    color: white;
+    display: flex;
+    margin: 3%;
+    border-style: hidden;
+    border-radius: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 30px;
+}
+
+.s-chef img{
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 60px rgba(0, 0, 0, 0.445);
+}
+
+.s-chef .d-image{
+    width: 50%;
+    margin-right: 30px;
+}
+
+.s-chef .d-text span{
+    letter-spacing: 3px;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+
+footer{
+    color: white;
+    background: #161616;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
+
+footer span{
+    font-size: 24px;
+}
+
+footer .color{
+    color: #f5646b
+}
